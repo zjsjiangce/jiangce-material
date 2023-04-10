@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "lint-staged": {
     "src/**/*.{vue,js,jsx,ts,tsx}": [
       "eslint --fix"
